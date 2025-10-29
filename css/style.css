@@ -1,0 +1,25 @@
+html {
+    font-size: 16px;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    margin: 1em auto;
+}
+
+
+.choices {
+    text-align: left;
+    background-color: #989998;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    width: fit-content;
+    max-width: 80%;
+    display: block;
+}

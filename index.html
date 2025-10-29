@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Cedar">
+    <title>Bear Ninja Hunter</title> <!--This is the text in the tab list-->
+    <script src="./js/index.js"></script>
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h2>Bear, Ninja, Hunter</h2>
+    <p>Test</p><br>
+    <ul style="list-style-position: inside; text-align: center;">
+      <li>Bear beats Hunter.</li>
+      <li>Hunter beats Ninja.</li>
+      <li>Ninja beats Bear.</li>
+    </ul><br>
+    <p>Click a button below to select your choice.</p>
+    <hr />
+    <button onclick="showSection('outcome'); bnj('bear')">Bear</button>
+    <button onclick="showSection('outcome'); bnj('ninja')">Ninja</button>
+    <button onclick="showSection('outcome'); bnj('hunter')">Hunter</button>
+    <hr />
+    <section id="outcome" style="display:none;">
+      <div class="choices">
+        <h3 id="results"></h3>
+      </div>
+      <p>User wins: <span id="userWins"></span></p>
+      <p>Computer wins: <span id="compWins"></span></p>
+      <hr />
+      <button onclick="hideSection('outcome'); scoreClear()">Clear score</button>
+      <hr />
+    </section>
+  </body>
+</html>
