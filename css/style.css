@@ -12,7 +12,11 @@ hr {
     margin: 1em auto;
 }
 
-
+ul {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
 .choices {
     text-align: left;
     background-color: #989998;
