@@ -17,20 +17,20 @@
       <li>Ninja beats Bear.</li>
     </ul><br>
     <p>Click a button below to select your choice.</p>
-    <hr />
+    <hr>
     <button onclick="showSection('outcome'); bnj('bear')">Bear</button>
     <button onclick="showSection('outcome'); bnj('ninja')">Ninja</button>
     <button onclick="showSection('outcome'); bnj('hunter')">Hunter</button>
-    <hr />
+    <hr>
     <section id="outcome" style="display:none;">
       <div class="choices">
         <h3 id="results"></h3>
       </div>
       <p>User wins: <span id="userWins"></span></p>
       <p>Computer wins: <span id="compWins"></span></p>
-      <hr />
+      <hr>
       <button onclick="hideSection('outcome'); scoreClear()">Clear score</button>
-      <hr />
+      <hr>
     </section>
   </body>
 </html>
